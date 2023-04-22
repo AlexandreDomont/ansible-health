@@ -12,6 +12,7 @@
       wait_for:
         host: "{{ http_srv }}"
         port: 30000
+        timeout: 15       
 
     - name: Ensure App is responding 
       uri:
