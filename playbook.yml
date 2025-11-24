@@ -16,7 +16,7 @@
 
     - name: Ensure App is responding 
       uri:
-        url: http://{{ http_srv }}:30000
+        url: http://{{ http_srv }}:30080
         return_content: no
         status_code: 200
       register: result
