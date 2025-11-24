@@ -11,7 +11,7 @@
     - name: Wait HTTP Port is accessible
       wait_for:
         host: "{{ http_srv }}"
-        port: 30000
+        port: 30080
         timeout: 15       
 
     - name: Ensure App is responding 
